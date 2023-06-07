@@ -1,7 +1,7 @@
 import React from 'react';
-import './Navbar.css';
 import { BsGithub } from 'react-icons/bs';
 import { IoNotificationsOutline } from 'react-icons/io5';
+import {BsLinkedin} from 'react-icons/bs';
 
 
 
@@ -13,11 +13,12 @@ function Navbar() {
             </div>
 
             <div className="flex-wrap flex justify-start items-center gap-x-[2rem]">
-                <span className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'><BsGithub /></span>
-                <span className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'><IoNotificationsOutline /></span>
-                <span className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'>SignIn</span>
-                <span className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'>SignUp</span>
-                <span className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'>logout</span>
+                <button className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'><BsGithub /></button>
+                <button className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'><BsLinkedin /></button>
+                <button className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'><IoNotificationsOutline /></button>
+                <button className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'>SignIn</button>
+                <button className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'>SignUp</button>
+                <button className='border border-solid rounded-[0.5rem] flex justify-center items-center text-[1.8rem] px-[1rem] h-[4.5rem]'>logout</button>
             </div>
         </div>
     )
