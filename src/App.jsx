@@ -7,7 +7,7 @@ import Homepage from './Components/Homepage/Homepage';
 
 function App() {
     return (
-        <div className="App">
+        <div className="w-auto flex justify-center items-center">
             <Homepage />
         </div>
     )
