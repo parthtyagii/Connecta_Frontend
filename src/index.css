@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+
+    /* width */
+    .newScroll::-webkit-scrollbar {
+        width: 26px;
+    }
+
+    /* Track */
+    .newScroll::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    .newScroll::-webkit-scrollbar-thumb {
+        background: gray;
+        border-radius: 5rem;
+        border: 10px solid rgb(243 244 246 / var(--tw-bg-opacity));
+    }
+}
