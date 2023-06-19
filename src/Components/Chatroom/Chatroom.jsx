@@ -44,6 +44,22 @@ const Chatroom = () => {
                         Lorem ipsum dolor
                     </div>
                 </div>
+
+                <div className=" h-auto flex self-end flex-col gap-y-[0.2rem] px-[1rem] py-[0.5rem] rounded-[1rem] bg-white  ">
+                    <div className="text-[1.4rem] font-[600] flex justify-end  ">Parth</div>
+                    <div className="text-[1.3rem] font-[400] flex justify-end ">
+                        Lorem ipsum dolor sit amet consectetur
+                    </div>
+                </div>
+
+                <div className=" h-auto flex flex-col gap-y-[0.2rem] px-[1rem] py-[0.5rem] rounded-[1rem] bg-white  ">
+                    <div className=" text-[1.4rem] font-[600] flex  ">Parth</div>
+                    <div className=" text-[1.3rem] font-[400] flex ">
+                        Lorem ipsum dolor
+                    </div>
+                </div>
+
+                
             </div>
 
             <div className="w-full p-[0.5rem] flex bg-white rounded-[1rem] ">
