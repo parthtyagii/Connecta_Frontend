@@ -7,7 +7,7 @@ import {BsLinkedin} from 'react-icons/bs';
 
 function Navbar() {
     return (
-        <div className='w-full h-auto border border-black flex-wrap flex justify-between items-center px-[2rem] py-[1rem]'>
+        <div className='w-full h-auto flex-wrap flex justify-between items-center px-[2rem] py-[1rem]'>
             <div className="leftPart text-[2.5rem] font-[500] flex justify-center items-center">
                 <span>Connecta</span>
             </div>
