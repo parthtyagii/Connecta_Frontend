@@ -13,7 +13,7 @@ const ConferencePage = () => {
   return (
     <div className='w-screen h-screen flex flex-col justify-center items-center '>
       <div className="w-full h-[88vh] flex ">
-        <div className="w-[70%] h-full bg-green-200 ">
+        <div className="w-[70%] h-full ">
           <ConferenceRoom />
         </div>
 

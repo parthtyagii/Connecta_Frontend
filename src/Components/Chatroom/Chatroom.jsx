@@ -7,8 +7,7 @@ const Chatroom = () => {
     return (
         <div className='w-full h-full p-[1.5rem] flex flex-col rounded-[1rem] bg-gray-100  '>
             <div className="w-full p-[0.5rem] flex rounded-[1rem] bg-white " >
-                <div className="w-[50%] text-[1.3rem] font-[700] p-[1rem] rounded-[1rem] flex justify-center items-center bg-green-100  ">Messages( )</div>
-                <div className="w-[50%] text-[1.3rem] font-[700] p-[1rem] rounded-[1rem] flex justify-center items-center  ">Participants( )</div>
+                <div className="w-full text-[1.3rem] font-[700] p-[1rem] rounded-[1rem] flex justify-center items-center bg-green-100  ">Messages</div>
             </div>
 
             <div className="w-full mt-[2rem] mb-[2rem]  relative ">
@@ -20,7 +19,7 @@ const Chatroom = () => {
                 <div className=" h-auto flex  flex-col gap-y-[0.2rem] px-[1rem] py-[0.5rem] rounded-[1rem] bg-white  ">
                     <div className=" text-[1.4rem] font-[600] flex  ">Parth</div>
                     <div className=" text-[1.3rem] font-[400] flex ">
-                        Lorem ipsum dolor sit, amet consectetur 
+                        Lorem ipsum dolor sit, amet consectetur
                     </div>
                 </div>
 
@@ -59,7 +58,7 @@ const Chatroom = () => {
                     </div>
                 </div>
 
-                
+
             </div>
 
             <div className="w-full p-[0.5rem] flex bg-white rounded-[1rem] ">
